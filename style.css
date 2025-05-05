@@ -1,0 +1,29 @@
+/* Estilos personalizados para SmartFitBand */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Ícones fictícios com espaçamento */
+  section i {
+    margin-bottom: 10px;
+    color: hsl(224, 94%, 70%);
+  }
+  
+  /* Seção de especificações */
+  #specs ul li {
+    font-size: 1.1rem;
+  }
+  
+  /* Botão do Hero */
+  .btn-light {
+    color: hsl(224, 62%, 45%);
+    border: 2px solid hsl(224, 94%, 70%);
+    transition: background-color 0.3s;
+  }
+  
+  .btn-light:hover {
+    background-color: hsl(224, 94%, 70%);
+    color: rgb(0, 0, 0);
+  }
+  
